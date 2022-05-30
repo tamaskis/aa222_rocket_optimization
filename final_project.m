@@ -20,7 +20,7 @@ addpath(genpath('optimizationtoolbox'));
 
 
 
-%% PARAMETERS AND MODELS
+%% PARAMETERS
 
 % loads rocket parameters
 rocket = rocket_parameters;
@@ -28,14 +28,6 @@ rocket = rocket_parameters;
 % loads physical parameters
 physical = physical_parameters;
 
-% loads actual and surrogate models describing the rocket's maximum
-% altitude and drift from the launch pad as functions of launch angle, 
-% ballast mass, and wind speed
-%[altitude_act,drift_act,altitude_surr,drift_surr] = load_models;
-
-
-
-%% TODO: include drifts and differences in table
 
 
 %% LAUNCH CONDITIONS AND GOALS
@@ -60,7 +52,7 @@ target_apogee = 1140;
 [theta0_6,m_ballast_6] = optimize_config(6,target_apogee);
 [theta0_7,m_ballast_7] = optimize_config(7,target_apogee);
 [theta0_8,m_ballast_8] = optimize_config(8,target_apogee);
-[theta0_9,m_ballast_9] = optimize_config(9,target_apogee);
+tic;[theta0_9,m_ballast_9] = optimize_config(9,target_apogee);toc
 
 % generates trajectories
 [x0,y0] = simulate_trajectory(theta0_0,m_ballast_0,0,rocket,physical);
