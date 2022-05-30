@@ -5,3 +5,8 @@
 **Quarter/Year:** Spring 2022\
 **School:** Stanford University\
 **Authors:** Tamas Kis
+
+## _Dependencies_
+
+  - [ODE Solver Toolbox](https://www.mathworks.com/matlabcentral/fileexchange/103975-ode-solver-toolbox)
+  - [Numerical Differentiation Toolbox]([https://www.mathworks.com/matlabcentral/fileexchange/103975-ode-solver-toolbox](https://www.mathworks.com/matlabcentral/fileexchange/97267-numerical-differentiation-toolbox))
