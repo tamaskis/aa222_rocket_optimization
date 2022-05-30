@@ -9,4 +9,4 @@
 ## _Dependencies_
 
   - [ODE Solver Toolbox](https://www.mathworks.com/matlabcentral/fileexchange/103975-ode-solver-toolbox)
-  - [Numerical Differentiation Toolbox]([https://www.mathworks.com/matlabcentral/fileexchange/103975-ode-solver-toolbox](https://www.mathworks.com/matlabcentral/fileexchange/97267-numerical-differentiation-toolbox))
+  - [Numerical Differentiation Toolbox](https://www.mathworks.com/matlabcentral/fileexchange/97267-numerical-differentiation-toolbox)
